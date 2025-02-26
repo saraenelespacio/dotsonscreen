@@ -6,5 +6,5 @@ function setup() {
 function draw() {
   fill('#ff3300');
   noStroke();
-  circle(mouseX, mouseY, 5)
+  circle(mouseX, mouseY, 3)
 }
