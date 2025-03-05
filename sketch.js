@@ -1,5 +1,6 @@
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  const canvas = document.querySelector('#dots');
+  createCanvas(windowWidth, windowHeight, "WEBGL", canvas);
   // background('#f7e8e7');
 }
 
